@@ -1,0 +1,2 @@
+COIN=$1
+bin/local.sh -o ~/.wallets/cold/$COIN/$(date +%s) -p solo $COIN
